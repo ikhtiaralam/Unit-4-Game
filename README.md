@@ -1,7 +1,7 @@
 # HW-4 - Crystal Game
 
 ## Live Link 
- -  https://jmneutel.github.io/Crystal-Game/
+ -  
 
 ## Description on how to use the app
 
