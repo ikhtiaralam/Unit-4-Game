@@ -5,10 +5,10 @@ $("#targetNumber").text(targetNumber);
 
 
 
-var Cry1 = Math.floor(Math.random() * 11) + 1;
-var Cry2 = Math.floor(Math.random() * 11) + 1;
-var Cry3 = Math.floor(Math.random() * 11) + 1;
-var Cry4 = Math.floor(Math.random() * 11) + 1;
+var Gem1 = Math.floor(Math.random() * 11) + 1;
+var Gem2 = Math.floor(Math.random() * 11) + 1;
+var Gem3 = Math.floor(Math.random() * 11) + 1;
+var Gem4 = Math.floor(Math.random() * 11) + 1;
 
 
 $("#winCounter").html(winCounter);
@@ -21,10 +21,10 @@ function restartGame() {
 
 targetNumber = Math.floor(Math.random() * 101) + 19;
 $("#targetNumber").text(targetNumber);
-Cry1 = Math.floor(Math.random() * 11) + 1;
-Cry2 = Math.floor(Math.random() * 11) + 1;
-Cry3 = Math.floor(Math.random() * 11) + 1;
-Cry4 = Math.floor(Math.random() * 11) + 1;
+Gem1 = Math.floor(Math.random() * 11) + 1;
+Gem2 = Math.floor(Math.random() * 11) + 1;
+Gem3 = Math.floor(Math.random() * 11) + 1;
+Gem4 = Math.floor(Math.random() * 11) + 1;
 counter = 0;
 $("#curScore").text(counter);
 
@@ -46,8 +46,8 @@ function lose() {
 	restartGame();
 }
 
-$('#Cry1').on ('click', function(){
-    counter = counter + Cry1;
+$('#Gem1').on ('click', function(){
+    counter = counter + Gem1;
     
     $('#curScore').text(counter); 
           
@@ -59,8 +59,8 @@ $('#Cry1').on ('click', function(){
         }   
   });  
 
-$('#Cry2').on ('click', function(){
-    counter = counter + Cry2;
+$('#Gem2').on ('click', function(){
+    counter = counter + Gem2;
     
     $('#curScore').text(counter); 
          
@@ -72,8 +72,8 @@ $('#Cry2').on ('click', function(){
         }   
   });  
 
-$('#Cry3').on ('click', function(){
-    counter = counter + Cry3;
+$('#Gem3').on ('click', function(){
+    counter = counter + Gem3;
     
     $('#curScore').text(counter); 
           
@@ -85,8 +85,8 @@ $('#Cry3').on ('click', function(){
         }   
   });  
 
-$('#Cry4').on ('click', function(){
-    counter = counter + Cry4;
+$('#Gem4').on ('click', function(){
+    counter = counter + Gem4;
     
     $('#curScore').text(counter); 
          

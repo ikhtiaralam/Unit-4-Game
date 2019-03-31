@@ -1,4 +1,4 @@
-.cry-img {
+.gem-img {
 
 	height: 200px;
 	width: 200px;
@@ -21,6 +21,7 @@ body {
 	
 	background-image: url("images/congruent_pentagon.png");
 	margin-left: 50px;
+	font-family: 'Courier New', Courier, monospace;
 
 }
 
